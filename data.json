@@ -1,0 +1,986 @@
+[
+    {
+        "html": [
+            {
+                "title": "Why We Use <br> Element",
+                "answer_1": "To Make Text Bold",
+                "answer_2": "To Make Text Italic",
+                "answer_3": "To Add Breakline",
+                "answer_4": "To Create Horizontal Line",
+                "right_answer": "To Add Breakline"
+            },
+            {
+                "title": "Is <img> Element Has Attribute href",
+                "answer_1": "Yes",
+                "answer_2": "No Its For Anchor Tag <a>",
+                "answer_3": "All Elements Has This Attribute",
+                "answer_4": "Answer 1 And 3 Is Right",
+                "right_answer": "No Its For Anchor Tag <a>"
+            },
+            {
+                "title": "How Can We Make Element Text Bold",
+                "answer_1": "Putting It Inside <b> Tag",
+                "answer_2": "Putting It Inside <strong> Tag",
+                "answer_3": "Customizing It With Font-Weight Property In CSS",
+                "answer_4": "All Answers Is Right",
+                "right_answer": "All Answers Is Right"
+            },
+            {
+                "title": "What Is The Right Hierarchy For Creating Part Of Page",
+                "answer_1": "<h2> Then <p> Then <h1> Then <p> Then <h3> Then <p> Then <img>",
+                "answer_2": "<h1> Then <p> Then <h3> Then <p> Then <h2> Then <p> Then <img>",
+                "answer_3": "<h2> Then <p> Then <h3> Then <p> Then <h1> Then <p> Then <img>",
+                "answer_4": "All Solutions Is Wrong",
+                "right_answer": "All Solutions Is Wrong"
+            },
+            {
+                "title": "How Can We Include External Page Inside Our HTML Page",
+                "answer_1": "By Using Include in HTML",
+                "answer_2": "By Using Load In HTML",
+                "answer_3": "By Using iFrame Tag",
+                "answer_4": "All Solutions Is Wrong",
+                "right_answer": "By Using iFrame Tag"
+            },
+            {
+                "title": "What Is The Tag That Not Exists in HTML",
+                "answer_1": "<object>",
+                "answer_2": "<basefont>",
+                "answer_3": "<abbr>",
+                "answer_4": "All Tags Is Exists in HTML",
+                "right_answer": "All Tags Is Exists in HTML"
+            },
+            {
+                "title": "How We Specify Document Type Of HTML5 Page",
+                "answer_1": "<DOCTYPE html>",
+                "answer_2": "<DOCTYPE html5>",
+                "answer_3": "<!DOCTYPE html5>",
+                "answer_4": "<!DOCTYPE html>",
+                "right_answer": "<!DOCTYPE html>"
+            },
+            {
+                "title": "What Is The Element Thats Not Exists in HTML5 Semantics",
+                "answer_1": "<article>",
+                "answer_2": "<section>",
+                "answer_3": "<blockquote>",
+                "answer_4": "<aside>",
+                "right_answer": "<blockquote>"
+            },
+            {
+                "title": "In HTML Can We Use This Way To Add Attributes",
+                "answer_1": "<div class='class-name'>",
+                "answer_2": "<div class=class-name>",
+                "answer_3": "<div class=\"class-name\">",
+                "answer_4": "All Is Right",
+                "right_answer": "All Is Right"
+            },
+            {
+                "title": "What Can We Do With <abbr>",
+                "answer_1": "To Add Breakline",
+                "answer_2": "An abbreviation for an English term",
+                "answer_3": "By Using Load In HTML",
+                "answer_4": "All Is Right",
+                "right_answer": "An abbreviation for an English term"
+            },
+            {
+                "title": "What is HTML?",
+                "answer_1": "It makes the text more interactive and dynamic",
+                "answer_2": "It is a standard text formatting language",
+                "answer_3": "Hyper Text Markup Language",
+                "answer_4": "All Is Right",
+                "right_answer": "All Is Right"
+            },
+            {
+                "title": "How many types of heading does an HTML contain?",
+                "answer_1": "3",
+                "answer_2": "8",
+                "answer_3": "6",
+                "answer_4": "11",
+                "right_answer": "6"
+            },
+            {
+                "title": "How to create a hyperlink in HTML?",
+                "answer_1": "by <a>",
+                "answer_2": "by <link>",
+                "answer_3": "by <script>",
+                "answer_4": "all answers wrong",
+                "right_answer": "by <a>"
+            },
+            {
+                "title": "Which HTML tag is used to display the data in the tabular form?",
+                "answer_1": "<tr> * <td>",
+                "answer_2": "row * column",
+                "answer_3": "<caption> * <colgroup>",
+                "answer_4": "<tbody> * <thead>",
+                "right_answer": "<tr> * <td>"
+            },
+            {
+                "title": "What Can We Do With <table> tag",
+                "answer_1": "It is used with <colgroup> element to specify column properties for each column.",
+                "answer_2": "It is used to group the header content in a table.",
+                "answer_3": "It defines a cell in a table.",
+                "answer_4": "It defines a table.",
+                "right_answer": "It defines a table."
+            },
+            {
+                "title": "What Can We Do With <tfooter> tag",
+                "answer_1": "It is used to group the footer content in a table.",
+                "answer_2": "It specifies a group of one or more columns in a table for formatting.",
+                "answer_3": "It is used to group the body content in a table..",
+                "answer_4": "It defines a table.",
+                "right_answer": "It is used to group the footer content in a table."
+            },
+            {
+                "title": "What Can We Do With <colgroup> tag",
+                "answer_1": "It defines a row in a table.",
+                "answer_2": "It defines a cell in a table.",
+                "answer_3": "It specifies a group of one or more columns in a table for formatting.",
+                "answer_4": "It is used to group the header content in a table.",
+                "right_answer": "It specifies a group of one or more columns in a table for formatting."
+            },
+            {
+                "title": "What Can We Do With <tr> tag",
+                "answer_1": "It defines a row in a table.",
+                "answer_2": "It defines a cell in a table.",
+                "answer_3": "It defines a header cell in a table.",
+                "answer_4": "It defines the table caption.",
+                "right_answer": "It defines a row in a table."
+            },
+            {
+                "title": "What Can We Do With <td> tag",
+                "answer_1": "It defines a row in a table.",
+                "answer_2": "It defines a cell in a table.",
+                "answer_3": "It defines a header cell in a table.",
+                "answer_4": "It defines the table caption.",
+                "right_answer": "It defines a cell in a table."
+            },
+            {
+                "title": "What is the difference between HTML elements and tags?",
+                "answer_1": "HTML elements communicate to the browser to render text, and elment enclosed by brackets <>",
+                "answer_2": "HTML enclosed by brackets <>",
+                "answer_3": "HTML Tags communicate to the browser to render text",
+                "answer_4": "All Answers Wrong",
+                "right_answer": "HTML elements communicate to the browser to render text, and elment enclosed by brackets <>"
+            },
+            {
+                "title": "What is semantic HTML?",
+                "answer_1": "HTML Doesn't Have Semantic element",
+                "answer_2": "semantic like &copy;",
+                "answer_3": "It is the use of HTML markup to reinforce the semantics or meaning of the content",
+                "answer_4": "All answers right",
+                "right_answer": "It is the use of HTML markup to reinforce the semantics or meaning of the content"
+            },
+            {
+                "title": "How to insert a copyright symbol on a browser page?",
+                "answer_1": "You can insert a copyright symbol by using <strong </strong or <em> </em> in an HTML file.",
+                "answer_2": "You can insert a copyright symbol by using <em> </em> or <b> </b> in an HTML file.",
+                "answer_3": "You can insert a copyright symbol by using &copy; or &#169; in an HTML file.",
+                "answer_4": "You can insert a copyright symbol by using <i> </i> or <b> </b> in an HTML file.",
+                "right_answer": "You can insert a copyright symbol by using &copy; or &#169; in an HTML file."
+            },
+            {
+                "title": "How to create a nested webpage in HTML?",
+                "answer_1": "by iframe tag",
+                "answer_2": "by img tage",
+                "answer_3": "by div tag",
+                "answer_4": "by section tag",
+                "right_answer": "by iframe tag"
+            },
+            {
+                "title": "Does a hyperlink only apply to text?",
+                "answer_1": "Yes it's only apply to text",
+                "answer_2": "No, you can use hyperlinks on text and images both",
+                "answer_3": "it's not apply text",
+                "answer_4": "it's only apply sympol",
+                "right_answer": "No, you can use hyperlinks on text and images both"
+            },
+            {
+                "title": "What is a style sheet?",
+                "answer_1": "to open another page",
+                "answer_2": "to add link to page",
+                "answer_3": "You Can't User it for HTML",
+                "answer_4": "designed style template",
+                "right_answer": "designed style template"
+            },
+            {
+                "title": "Can you create a multi-colored text on a web page?",
+                "answer_1": "Yes, you can use <font color ='color'",
+                "answer_2": "Yes you can use <font display ='color'",
+                "answer_3": "You Can't User it for HTML",
+                "answer_4": "Yes you can use <font opacity ='color'",
+                "right_answer": "Yes, you can use <font color ='color'"
+            },
+            {
+                "title": "Explain the layout of HTML?",
+                "answer_1": "1: <header>, 2: <nav> , 3: <section , 4: <article> , 5: <aside> , 6: <footer>",
+                "answer_2": "1:<section>, 2: <nav> , 3: <section , 4: <article>",
+                "answer_3": "1:<header>, 2: <article> , 3: <section , 4: <div>",
+                "answer_4": "all answers wrong",
+                "right_answer": "1: <header>, 2: <nav> , 3: <section , 4: <article> , 5: <aside> , 6: <footer>"
+            },
+            {
+                "title": "How to make a picture of a background image of a web page?",
+                "answer_1": "<body img = 'image.gif'>",
+                "answer_2": "<body background = 'gradient'>",
+                "answer_3": "<body background = 'color'>",
+                "answer_4": "<body background = 'image.gif'>",
+                "right_answer": "<body background = 'image.gif'>"
+            },
+            {
+                "title": "What are empty elements?",
+                "answer_1": "<p>, <hr>",
+                "answer_2": "<body background = 'gradient'>",
+                "answer_3": "<br>, <hr>",
+                "answer_4": "<br>, <div>",
+                "right_answer": "<br>, <hr>"
+            },
+            {
+                "title": "What is the use of a span tag? ",
+                "answer_1": "For adding color on text",
+                "answer_2": "For adding background on text",
+                "answer_3": "Highlight any color text",
+                "answer_4": "all answers right",
+                "right_answer": "all answers right"
+            },
+            {
+                "title": "Does a <!DOCTYPE html> tag is a HTML tag?",
+                "answer_1": "it's like an empty elemnts",
+                "answer_2": "yes it's a HTML tag",
+                "answer_3": "No, the <!DOCTYPE html> declaration is not an HTML tag.",
+                "answer_4": "no, answer right",
+                "right_answer": "No, the <!DOCTYPE html> declaration is not an HTML tag."
+            },
+            {
+                "title": "What is the canvas element in HTML5?",
+                "answer_1": "The <canvas> element is a container that is used to draw graphics on the web page using scripting language like JavaScript",
+                "answer_2": "it's not an element in HTML",
+                "answer_3": "it's useing to add another page",
+                "answer_4": "no, answer right",
+                "right_answer": "The <canvas> element is a container that is used to draw graphics on the web page using scripting language like JavaScript"
+            },
+            {
+                "title": "What is SVG?",
+                "answer_1": "you can't access for it",
+                "answer_2": "HTML not Support SVG",
+                "answer_3": "HTML SVG is used to describe the two-dimensional vector and vector/raster graphics.",
+                "answer_4": "To Add Link in page",
+                "right_answer": "HTML SVG is used to describe the two-dimensional vector and vector/raster graphics."
+            },
+            {
+                "title": "Is there any need to change the web browsers to support HTML5?",
+                "answer_1": "No. Almost all browsers (updated versions) support HTML 5. For example Chrome, Firefox, Opera, Safari, IE.",
+                "answer_2": "Chrome, Can't Support HTML5.",
+                "answer_3": "IE, Can't Support HTML5.",
+                "answer_4": "IE and Firefox, Can't Support HTML5.",
+                "right_answer": "No. Almost all browsers (updated versions) support HTML 5. For example Chrome, Firefox, Opera, Safari, IE."
+            },
+            {
+                "title": "Which type of video formats are supported by HTML5?",
+                "answer_1": "mp4 , WebM , Ogg",
+                "answer_2": "mp3 , Ogg , WebM",
+                "answer_3": "mp6 , WebM , Ogg",
+                "answer_4": "mp5 , WebM",
+                "right_answer": "mp4 , WebM , Ogg"
+            },
+            {
+                "title": "Is audio tag supported in HTML 5?",
+                "answer_1": "mp3 , WAV , Ogg",
+                "answer_2": "mp4 , Ogg",
+                "answer_3": "mp3 , WebM , Ogg",
+                "answer_4": "mp3 , WebM",
+                "right_answer": "mp3 , WAV , Ogg"
+            },
+            {
+                "title": "What is the use of figure tag in HTML 5?",
+                "answer_1": "To add icone on web page",
+                "answer_2": "To add link on web page",
+                "answer_3": "To describe Section on we page",
+                "answer_4": "The figure tag is used to add a photo in the document on the web page",
+                "right_answer": "The figure tag is used to add a photo in the document on the web page"
+            },
+            {
+                "title": "What is the use of figcaption tag in HTML 5?",
+                "answer_1": "The <figcaption> element is used to provide a caption to an image",
+                "answer_2": "The <figcaption> element is used to provide a caption to an link",
+                "answer_3": "The <figcaption> element is used to provide a caption to an section",
+                "answer_4": "The <figcaption> element is used to provide a caption to an header",
+                "right_answer": "The <figcaption> element is used to provide a caption to an image"
+            },
+            {
+                "title": "What is button tag?",
+                "answer_1": "It is used to create a clickable button",
+                "answer_2": "It is used to create a clickable photo",
+                "answer_3": "It is used to create a mouse Hover button",
+                "answer_4": "It is used to create a clickable click",
+                "right_answer": "It is used to create a clickable button"
+            },
+            {
+                "title": "What is datalist tag?",
+                "answer_1": "To add datalist to page",
+                "answer_2": "HTML5 Not Support datalist tag",
+                "answer_3": "The HTML 5 datalist tag provides an autocomplete feature on the form element",
+                "answer_4": "no, answer right",
+                "right_answer": "The HTML 5 datalist tag provides an autocomplete feature on the form element"
+            },
+            {
+                "title": "How are tags migrated from HTML4 to HTML5?",
+                "answer_1": "<div id='link'> => <nav>",
+                "answer_2": "<div id='imge'> => <nav>",
+                "answer_3": "<div id='post'> => <nav>",
+                "answer_4": "<div id='menu'> => <nav>",
+                "right_answer": "<div id='menu'> => <nav>"
+            },
+            {
+                "title": "If I do not put <!DOCTYPE html> will HTML 5 work?",
+                "answer_1": "No, the browser will not be able to identify that it is an HTML document and HTML 5 tags do not function properly..",
+                "answer_2": "Yes, the browser will working easy",
+                "answer_3": "The browser don't care about it",
+                "answer_4": "no, answer right",
+                "right_answer": "No, the browser will not be able to identify that it is an HTML document and HTML 5 tags do not function properly.."
+            },
+            {
+                "title": "What is the use of the required attribute in HTML5?",
+                "answer_1": "It unfocus a user to fill text on the text field or text area before submitting the form. It is used for form validation.",
+                "answer_2": "It focus a user to fill text on the text field or text area before submitting the form. It is used for form validation.",
+                "answer_3": "HTML Not Support required attribute",
+                "answer_4": "it's not attribute it's a tag ",
+                "right_answer": "It focus a user to fill text on the text field or text area before submitting the form. It is used for form validation."
+            }
+        ],
+        "css": [
+            {
+                "title": "What is CSS?",
+                "answer_1": "CSS stands for Cascading Style Sheet.",
+                "answer_2": "CSS is a markup language used for structuring and displaying content on the internet",
+                "answer_3": "CSS Like HTML To Write A Simpl Code",
+                "answer_4": "No answer right",
+                "right_answer": "CSS stands for Cascading Style Sheet."
+            },
+            {
+                "title": "What is the origin of CSS?",
+                "answer_1": "It is a popular styling language which is used with HTML to design",
+                "answer_2": "It can also be used with any XML documents including plain XML, SVG",
+                "answer_3": "SGML.is the origin of CSS. It is a language that defines markup languages.",
+                "answer_4": "All answers are Right",
+                "right_answer": "SGML.is the origin of CSS. It is a language that defines markup languages."
+            },
+            {
+                "title": "How can you integrate CSS on a web page?",
+                "answer_1": "Inline method - It is used to insert style sheets in HTML document",
+                "answer_2": "Embedded/Internal method - It is used to add a unique style to a single document",
+                "answer_3": "Linked/Imported/External method - It is used when you want to make changes on multiple pages.",
+                "answer_4": "ALL answers Are Right",
+                "right_answer": "ALL answers Are Right"
+            },
+            {
+                "title": "What are the advantages of CSS?",
+                "answer_1": "Cascading Style Sheet",
+                "answer_2": "Site-wide consistency",
+                "answer_3": "Page reformatting",
+                "answer_4": "Two And Three Are Right",
+                "right_answer": "Two And Three Are Right"
+            },
+            {
+                "title": "What are the limitations of CSS?",
+                "answer_1": "Create A Perfect Animations",
+                "answer_2": "Styling Elements",
+                "answer_3": "Design A web Page",
+                "answer_4": "Ascending by selectors is not possible",
+                "right_answer": "Ascending by selectors is not possible"
+            },
+            {
+                "title": "What are the CSS frameworks?",
+                "answer_1": "Canvas",
+                "answer_2": "Bootstrap",
+                "answer_3": "Vue.js",
+                "answer_4": "Laravel",
+                "right_answer": "Bootstrap"
+            },
+            {
+                "title": "Why background and color are the separate properties if they should always be set together?",
+                "answer_1": "Color is an inherited property while the background is not. So this can make confusion further.",
+                "answer_2": "You Can't Use Color and Background at the same time",
+                "answer_3": "backGround Not Support all colors",
+                "answer_4": "BackGround Support Image Only",
+                "right_answer": "Color is an inherited property while the background is not. So this can make confusion further."
+            },
+            {
+                "title": "What is Embedded Style Sheet?",
+                "answer_1": "An Embedded style sheet is a CSS style specification method used with BootStrap",
+                "answer_2": "An Embedded style sheet is a CSS style specification method used with JavaScript",
+                "answer_3": "An Embedded style sheet is a HTML style specification method used with HTML",
+                "answer_4": "An Embedded style sheet is a CSS style specification method used with HTML",
+                "right_answer": "An Embedded style sheet is a CSS style specification method used with HTML"
+            },
+            {
+                "title": "What are the advantages of Embedded Style Sheets?",
+                "answer_1": "You can use selector and grouping methods to apply styles in complex situations.",
+                "answer_2": "You can not create classes for use on multiple tag types in the document.",
+                "answer_3": "extra download is required to import the information.",
+                "answer_4": "no right answer",
+                "right_answer": "You can use selector and grouping methods to apply styles in complex situations."
+            },
+            {
+                "title": "What is a CSS selector?",
+                "answer_1": "CSS Universal Selector",
+                "answer_2": "CSS Console Selector",
+                "answer_3": "CSS Element Selector",
+                "answer_4": "one and three right",
+                "right_answer": "one and three right"
+            },
+            {
+                "title": "Name some CSS style components.",
+                "answer_1": "Selector",
+                "answer_2": "Value",
+                "answer_3": "Property",
+                "answer_4": "all answers are right",
+                "right_answer": "all answers are right"
+            },
+            {
+                "title": "What is the use of CSS Opacity?",
+                "answer_1": "The CSS opacity property is used to specify the transparency of an element. In simple word",
+                "answer_2": "The CSS opacity property is Not used to specify the transparency of an element. In simple word",
+                "answer_3": "The CSS opacity property is used to specify the backGround of an element. In simple word",
+                "answer_4": "no, answer right",
+                "right_answer": "The CSS opacity property is used to specify the transparency of an element. In simple word"
+            },
+            {
+                "title": "What is the use of % unit?",
+                "answer_1": "used for selecting all the elements of a paragraph.",
+                "answer_2": "used for to Set Color Of Text",
+                "answer_3": "used for styling Elements",
+                "answer_4": "It is used for defining percentage values.",
+                "right_answer": "It is used for defining percentage values."
+            },
+            {
+                "title": "What is the difference between class selectors and id selectors?",
+                "answer_1": "id can user one more time",
+                "answer_2": "class can't user one more time",
+                "answer_3": "An overall block is given to class selector while id selectors take only a single element differing from other elements.",
+                "answer_4": "no, answer right",
+                "right_answer": "An overall block is given to class selector while id selectors take only a single element differing from other elements."
+            },
+            {
+                "title": "What is RWD?",
+                "answer_1": "RWD stands for JavaScript Web Design.",
+                "answer_2": "RWD stands for Responsive Web Design.",
+                "answer_3": "RWD stands for HTML Web Design.",
+                "answer_4": "all answers are right",
+                "right_answer": "RWD stands for Responsive Web Design."
+            },
+            {
+                "title": "What are the benefits of CSS sprites?",
+                "answer_1": "If a web page has a large number of images that take a longer time to load because each image separately sends out an HTTP request.",
+                "answer_2": "Physical tags are newer versions, on the other hand, logical tags are old and concentrate on content.",
+                "answer_3": "to create a different page for each device.",
+                "answer_4": "This technique is used to display the designed page perfectly on every screen size and device",
+                "right_answer": "If a web page has a large number of images that take a longer time to load because each image separately sends out an HTTP request."
+            },
+            {
+                "title": "What is the difference between logical tags and physical tags?",
+                "answer_1": "Physical tags are referred to as presentational markup while logical tags are useless for appearances.",
+                "answer_2": "Physical tags are newer versions, on the other hand, logical tags are old and concentrate on content.",
+                "answer_3": "It reduces the number of HTTP requests and hence the loading time.",
+                "answer_4": "one and two right",
+                "right_answer": "one and two right"
+            },
+            {
+                "title": "What is the CSS Box model and what are its elements?",
+                "answer_1": "It doesn't change the property of the elements used before it.",
+                "answer_2": "The CSS box its Property Of Css",
+                "answer_3": "In the print display, an Box is set into the page such that text wraps around it as needed.",
+                "answer_4": "The CSS box model is used to define the design and layout of elements of CSS.",
+                "right_answer": "The CSS box model is used to define the design and layout of elements of CSS."
+            },
+            {
+                "title": "What is the float property of CSS?",
+                "answer_1": "it's not a property it's element",
+                "answer_2": "The CSS float property is used to move the image to the right or left along with the texts to be wrapped around it.",
+                "answer_3": "it's not a property it's tag",
+                "answer_4": "it's not a property of Css it's for HTML",
+                "right_answer": "The CSS float property is used to move the image to the right or left along with the texts to be wrapped around it."
+            },
+            {
+                "title": "How to restore the default property value using CSS?",
+                "answer_1": "The closest option is to use the 'initial' property value",
+                "answer_2": "The closest option is to use the 'inhairt' property value",
+                "answer_3": "The closest option is to use the 'restore' property value",
+                "answer_4": "no, answer right",
+                "right_answer": "The closest option is to use the 'initial' property value"
+            },
+            {
+                "title": "What is the purpose of the z-index and how is it used?",
+                "answer_1": "The z-index helps to specify the restore of positioned elements that may overlap one another",
+                "answer_2": "The z-index helps to selector elements",
+                "answer_3": "The z-index helps to specify the stack order of positioned elements that may overlap one another",
+                "answer_4": "The z-index helps to find element",
+                "right_answer": "The z-index helps to specify the stack order of positioned elements that may overlap one another"
+            },
+            {
+                "title": "Z-Index can take the following values:",
+                "answer_1": "Auto",
+                "answer_2": "Number",
+                "answer_3": "Initial",
+                "answer_4": "all answers are right",
+                "right_answer": "all answers are right"
+            },
+            {
+                "title": "What do you understand by W3C?",
+                "answer_1": "W3C stands for World Wide Web Consortium",
+                "answer_2": "W3C stands for World Three Web",
+                "answer_3": "modules are supported by many browsers.",
+                "answer_4": "no, answer right",
+                "right_answer": "W3C stands for World Wide Web Consortium"
+            },
+            {
+                "title": "What do you know about CSS Layout - Overflow",
+                "answer_1": "The CSS overflow property controls what happens to content that is too big to fit into an area.",
+                "answer_2": "The CSS overflow property  uncontrol what happens to content that is too big to fit into an area.",
+                "answer_3": "to hide codes",
+                "answer_4": "no, answer right",
+                "right_answer": "The CSS overflow property controls what happens to content that is too big to fit into an area."
+            },
+            {
+                "title": "what do you know about CSS Layout - display: inline-block",
+                "answer_1": "Compared to display: inline, the major difference is that display: inline-flex allows to set a width and height on the element.",
+                "answer_2": "Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.",
+                "answer_3": "span it's inline-block",
+                "answer_4": "<a>it's inline-block",
+                "right_answer": "Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element."
+            },
+            {
+                "title": "what do you know about Horizontal & Vertical Align",
+                "answer_1": "text-align it's not a Horizontal property",
+                "answer_2": "margin property can user with inline elements",
+                "answer_3": "To horizontally center a inline element (like <span>)",
+                "answer_4": "To horizontally center a block element (like <div>)",
+                "right_answer": "To horizontally center a block element (like <div>)"
+            },
+            {
+                "title": "What are Pseudo-classes?",
+                "answer_1": "Style an element when a user mouses over it",
+                "answer_2": "Style visited and unvisited links differently",
+                "answer_3": "Style an element when it gets focus",
+                "answer_4": "all answers are right",
+                "right_answer": "all answers are right"
+            },
+            {
+                "title": "What are Pseudo-Elements?",
+                "answer_1": "Style deiffrent BackGround of element",
+                "answer_2": "Style the first letter, or line, of an element",
+                "answer_3": "Style visited and unvisited links differently",
+                "answer_4": "no right answer",
+                "right_answer": "Style the first letter, or line, of an element"
+            },
+            {
+                "title": "what about CSS Units",
+                "answer_1": "width, margin, padding, font-size",
+                "answer_2": "block, inline-block, flex, inline-flex",
+                "answer_3": "h1 , h2 , h3 , h4",
+                "answer_4": ":first-elemnt, :last-element",
+                "right_answer": "width, margin, padding, font-size"
+            },
+            {
+                "title": "What is Specificity?",
+                "answer_1": "If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will 'win', and its style declaration will be applied to that HTML element.",
+                "answer_2": "in Css doesn't have Specific",
+                "answer_3": "There are only two categories which define the specificity level of a selector:",
+                "answer_4": "no right answer",
+                "right_answer": "If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will 'win', and its style declaration will be applied to that HTML element."
+            },
+            {
+                "title": "what about !important Rule",
+                "answer_1": "The !important rule in CSS is used to add more importance to a property/value than normal.",
+                "answer_2": "The !important rule in CSS is used to add more opecity to a property/value than normal.",
+                "answer_3": "In fact, if you use the !important rule, it will non-override ALL previous styling rules for that specific property on that element!",
+                "answer_4": "no right answer",
+                "right_answer": "The !important rule in CSS is used to add more importance to a property/value than normal."
+            },
+            {
+                "title": "what do you know about CSS Rounded Corners",
+                "answer_1": "The CSS border property defines the radius of an element's corners.",
+                "answer_2": "The CSS border-radius property defines the radius of an element's corners.",
+                "answer_3": "The CSS border-right property defines the radius of an element's corners.",
+                "answer_4": "no right answer",
+                "right_answer": "The CSS border-radius property defines the radius of an element's corners."
+            },
+            {
+                "title": "what do you know about CSS Multiple Backgrounds",
+                "answer_1": "CSS non support multiple backgrounds",
+                "answer_2": "there's one way to user multiple backgrounds",
+                "answer_3": "CSS allows you to add multiple background images for an element, through the background-image property.",
+                "answer_4": "all answers are right",
+                "right_answer": "CSS allows you to add multiple background images for an element, through the background-image property."
+            },
+            {
+                "title": "what do you know about CSS Color Keywords",
+                "answer_1": "transparent",
+                "answer_2": "inherit",
+                "answer_3": "currentcolor",
+                "answer_4": "all answers are right",
+                "right_answer": "all answers are right"
+            },
+            {
+                "title": "what's proeprty of CSS Gradients",
+                "answer_1": "Linear Gradients",
+                "answer_2": "Radial Gradients",
+                "answer_3": "Conic Gradients",
+                "answer_4": "all answers are right",
+                "right_answer": "all answers are right"
+            },
+            {
+                "title": "What is Responsive Web Design?",
+                "answer_1": "Responsive web design makes your web page look good on all devices",
+                "answer_2": "Responsive web design uses only HTML and CSS and js .",
+                "answer_3": "Responsive web design is a program or a JavaScript.",
+                "answer_4": "all answers are right",
+                "right_answer": "Responsive web design makes your web page look good on all devices"
+            },
+            {
+                "title": "Can You Use Width and Height For Video element",
+                "answer_1": "You Can only Use width",
+                "answer_2": "You Can only Use height",
+                "answer_3": "You Can user both",
+                "answer_4": "no right answer",
+                "right_answer": "You Can user both"
+            },
+            {
+                "title": "how many Frameworks in css",
+                "answer_1": "only one Framework",
+                "answer_2": "only two Frameworks",
+                "answer_3": "There are many free CSS Frameworks that offer Responsive Design.",
+                "answer_4": "no right answer",
+                "right_answer": "There are many free CSS Frameworks that offer Responsive Design."
+            },
+            {
+                "title": "what are the browsers support Grid elemnts",
+                "answer_1": "Chrome",
+                "answer_2": "FireFox",
+                "answer_3": "IE",
+                "answer_4": "Opra",
+                "right_answer": "ALL answers Are Right"
+            },
+            {
+                "title": "Can Styling For Button By Css",
+                "answer_1": "yes",
+                "answer_2": "no",
+                "answer_3": "sometiems",
+                "answer_4": "no right answer",
+                "right_answer": "yes"
+            }
+        ],
+        "js": [
+            {
+                "title": "What are JavaScript Data Types?",
+                "answer_1": "Number",
+                "answer_2": "String",
+                "answer_3": "Object",
+                "answer_4": "all are right",
+                "right_answer": "all are right"
+            },
+            {
+                "title": "What is JavaScript?",
+                "answer_1": "it's Like a CSS to design a computer Programing",
+                "answer_2": "It's A Hyper Text Mark up Language",
+                "answer_3": "JavaScript is a client-side and server-side scripting language inserted into HTML pages and is understood by web browsers",
+                "answer_4": "nothing right",
+                "right_answer": "JavaScript is a client-side and server-side scripting language inserted into HTML pages and is understood by web browsers"
+            },
+            {
+                "title": "What is the use of isNaN function?",
+                "answer_1": "isNan function returns true if the argument is not a string; otherwise, it is false.",
+                "answer_2": "isNan function returns true if the argument is not a function; otherwise, it is false.",
+                "answer_3": "check if type of argument boolean or not",
+                "answer_4": "isNan function returns true if the argument is not a number; otherwise, it is false.",
+                "right_answer": "isNan function returns true if the argument is not a number; otherwise, it is false."
+            },
+            {
+                "title": "Which is faster between JavaScript and an ASP script?",
+                "answer_1": "JavaScript Faster Thne ASP Script",
+                "answer_2": "ASP Script Faster Thne JavaScript",
+                "answer_3": "both the same",
+                "answer_4": "JavaScript is faster. JavaScript is a client-side language,, and thus it does not need the assistance of the webserver to execute",
+                "right_answer": "JavaScript is faster. JavaScript is a client-side language,, and thus it does not need the assistance of the webserver to execute"
+            },
+            {
+                "title": "What is negative Infinity?",
+                "answer_1": "Negative Infinity is a number in JavaScript which can be derived by dividing negative string by zero.",
+                "answer_2": "Negative Infinity is a number in JavaScript which can be derived by dividing negative number by zero.",
+                "answer_3": "Negative Infinity is a string",
+                "answer_4": "nothing right",
+                "right_answer": "Negative Infinity is a number in JavaScript which can be derived by dividing negative number by zero."
+            },
+            {
+                "title": "Is it possible to break JavaScript Code into several lines?",
+                "answer_1": "you can break one line not more",
+                "answer_2": "Breaking within a string statement can be done by using a backslash, at the end of the first line.",
+                "answer_3": "In JavaScript Can't break several Lines",
+                "answer_4": "JavaScript Not Support break lines",
+                "right_answer": "Breaking within a string statement can be done by using a backslash, at the end of the first line."
+            },
+            {
+                "title": "Which company developed JavaScript?",
+                "answer_1": "Netscape is the software company that developed JavaScript.",
+                "answer_2": "Net.Code is the software company that developed JavaScript.",
+                "answer_3": "Net.org is the software company that developed JavaScript.",
+                "answer_4": "Net.acadmey is the software company that developed JavaScript.",
+                "right_answer": "Netscape is the software company that developed JavaScript."
+            },
+            {
+                "title": "What are undeclared and undefined variables?",
+                "answer_1": "to undeclared any Variables",
+                "answer_2": "Undeclared variables are those that already exist in a program and are not declared.",
+                "answer_3": "one and two are right",
+                "answer_4": "Undeclared variables are those that do not exist in a program and are not declared.",
+                "right_answer": "Undeclared variables are those that do not exist in a program and are not declared."
+            },
+            {
+                "title": "What are global variables? How are these variable declared?",
+                "answer_1": "Global variables are available throughout the length of the code so that it has scope",
+                "answer_2": "Can't make a scope drama",
+                "answer_3": "Global variables are available throughout the length of the code so that it has no scope",
+                "answer_4": "one and three are right",
+                "right_answer": "Global variables are available throughout the length of the code so that it has no scope"
+            },
+            {
+                "title": "What is a prompt box?",
+                "answer_1": "A prompt box is a box that allows the user to enter input by providing a text box. A label and box will be provided to enter the text or number.",
+                "answer_2": "JavaScript dosen't support prompt box",
+                "answer_3": "prompt box like alart but have a input to add sentence",
+                "answer_4": "one and three are right",
+                "right_answer": "one and three are right"
+            },
+            {
+                "title": "What is ‘this’ keyword in JavaScript?",
+                "answer_1": "‘This’ keyword refers to the object from where it was called.",
+                "answer_2": "you can't user it in JavaScript",
+                "answer_3": "most of modern browser not support it",
+                "answer_4": "it always refers to widnow object",
+                "right_answer": "‘This’ keyword refers to the object from where it was called."
+            },
+            {
+                "title": "What is the working of timers in JavaScript?",
+                "answer_1": "Timers are used to execute a piece of code at a set time or repeat the code in a given interval",
+                "answer_2": "Timers are equal data and time",
+                "answer_3": "Timers used to know time ",
+                "answer_4": "all are right",
+                "right_answer": "Timers are used to execute a piece of code at a set time or repeat the code in a given interval"
+            },
+            {
+                "title": "Which symbol is used for comments in Javascript?",
+                "answer_1": "// for Single line comments and",
+                "answer_2": "/* Multi",
+                "answer_3": "one and two are right",
+                "answer_4": "nothing right",
+                "right_answer": "one and two are right"
+            },
+            {
+                "title": "What is === operator?",
+                "answer_1": "is called a strict equality operator",
+                "answer_2": "is called a not equal operator",
+                "answer_3": "is called a strict identical operator",
+                "answer_4": "one and three are right",
+                "right_answer": "one and three are right"
+            },
+            {
+                "title": "How you can submit a form using JavaScript?",
+                "answer_1": "document.form[0].submit();",
+                "answer_2": "selctor.submit()",
+                "answer_3": "one and two are right",
+                "answer_4": "nothing right",
+                "right_answer": "one and two are right"
+            },
+            {
+                "title": "Does JavaScript support automatic type conversion?",
+                "answer_1": "Yes, JavaScript does support automatic type conversion. It is the common way of type conversion used by JavaScript developers",
+                "answer_2": "no, JavaScript doesn't support automatic type conversion. It is the common way of type conversion used by PHP developers",
+                "answer_3": "all modern browser don't support it",
+                "answer_4": "nothing right",
+                "right_answer": "Yes, JavaScript does support automatic type conversion. It is the common way of type conversion used by JavaScript developers"
+            },
+            {
+                "title": "How can the style/class of an element be changed?",
+                "answer_1": "document.getElementById('myText'). style. fontSize = '20';",
+                "answer_2": "document.getElementById('myText'). style. fontWeight = 'bold';",
+                "answer_3": "document.getElementById('myText'). style. color = 'red';",
+                "answer_4": "all are right",
+                "right_answer": "all are right"
+            },
+            {
+                "title": "How to read and write a file using JavaScript?",
+                "answer_1": "Using HTML Tags",
+                "answer_2": "Using JavaScript extensions",
+                "answer_3": "Using a web page and Active X objects",
+                "answer_4": "two and three are right",
+                "right_answer": "two and three are right"
+            },
+            {
+                "title": "What are all the looping structures in JavaScript?",
+                "answer_1": "While",
+                "answer_2": "Do-while loops",
+                "answer_3": "For",
+                "answer_4": "all are right",
+                "right_answer": "all are right"
+            },
+            {
+                "title": "How can you convert the string of any base to an integer in JavaScript?",
+                "answer_1": "by parseInt()",
+                "answer_2": "by isIntger",
+                "answer_3": "by integer",
+                "answer_4": "nothing right",
+                "right_answer": "by parseInt()"
+            },
+            {
+                "title": "Difference between “==” and “===”?",
+                "answer_1": "“==” checks only for equality in value, whereas “ “===” is a stricter equality test and returns false if either the value or the type of the two variables are different.",
+                "answer_2": "For comparing Value",
+                "answer_3": "For comparing type",
+                "answer_4": "two and three are right",
+                "right_answer": "“==” checks only for equality in value, whereas “ “===” is a stricter equality test and returns false if either the value or the type of the two variables are different."
+            },
+            {
+                "title": "What would be the result of 3+2+”7″?",
+                "answer_1": "12",
+                "answer_2": "13",
+                "answer_3": "57",
+                "answer_4": "11",
+                "right_answer": "57"
+            },
+            {
+                "title": "What do you mean by NULL in Javascript?",
+                "answer_1": "The NULL value is used to represent no value or no object.",
+                "answer_2": "to get a full value from object",
+                "answer_3": "not equal an empty value",
+                "answer_4": "two and three are right",
+                "right_answer": "The NULL value is used to represent no value or no object."
+            },
+            {
+                "title": "What is the function of the delete operator?",
+                "answer_1": "delete keyword can delete anything for js",
+                "answer_2": "The delete keyword is used to delete the property as well as its value.",
+                "answer_3": "delete keyword can delete only things declered by var or let or const",
+                "answer_4": "nothing right",
+                "right_answer": "The delete keyword is used to delete the property as well as its value."
+            },
+            {
+                "title": "What is an undefined value in JavaScript?",
+                "answer_1": "Variable used in the code doesn’t exist",
+                "answer_2": "Variable is not assigned to any value",
+                "answer_3": "Property does not exist.",
+                "answer_4": "all are right",
+                "right_answer": "all are right"
+            },
+            {
+                "title": "What are all the types of Pop up boxes available in JavaScript?",
+                "answer_1": "Alert",
+                "answer_2": "Confirm",
+                "answer_3": "Prompt",
+                "answer_4": "all are right",
+                "right_answer": "all are right"
+            },
+            {
+                "title": "How can a page be forced to load another page in JavaScript?",
+                "answer_1": "location. href='https://www.guru99.com/javascript-interview-questions'",
+                "answer_2": "location. hash='https://www.guru99.com/javascript-interview-questions'",
+                "answer_3": "location. host='https://www.guru99.com/javascript-interview-questions'",
+                "answer_4": "location. load='https://www.guru99.com/javascript-interview-questions'",
+                "right_answer": "location. href='https://www.guru99.com/javascript-interview-questions'"
+            },
+            {
+                "title": "What is the data type of variables in JavaScript?",
+                "answer_1": "All variables in JavaScript are object data types.",
+                "answer_2": "All variables in JavaScript are function data types.",
+                "answer_3": "All variables in JavaScript are string data types.",
+                "answer_4": "All variables in JavaScript are number data types.",
+                "right_answer": "All variables in JavaScript are object data types."
+            },
+            {
+                "title": "What is the confirmation box?",
+                "answer_1": "Confirmation box displays two buttons, namely OK and cancel.",
+                "answer_2": "Confirmation box displays one button, ok.",
+                "answer_3": "Confirmation box displays input feild",
+                "answer_4": "all are right",
+                "right_answer": "Confirmation box displays two buttons, namely OK and cancel."
+            },
+            {
+                "title": " What are escape characters?",
+                "answer_1": "backslash",
+                "answer_2": "double quotes",
+                "answer_3": "singel quotes",
+                "answer_4": "nothing right",
+                "right_answer": "backslash"
+            },
+            {
+                "title": "What a pop()method in JavaScript is?",
+                "answer_1": "The pop() method takes the last element off of the given array and returns it.",
+                "answer_2": "The pop() method takes the first element off of the given array and returns it.",
+                "answer_3": "The pop() method takes the last element off of the given array and return array",
+                "answer_4": "The pop() method takes the first element off of the given array and return array",
+                "right_answer": "The pop() method takes the last element off of the given array and returns it."
+            },
+            {
+                "title": "Does JavaScript has concept level scope?",
+                "answer_1": "Yes. JavaScript does not have concept-level scope. ",
+                "answer_2": "No. JavaScript does not have concept-level scope. ",
+                "answer_3": "one and two are right",
+                "answer_4": "nothing right",
+                "right_answer": "No. JavaScript does not have concept-level scope. "
+            },
+            {
+                "title": "What are the disadvantages of using innerHTML in JavaScript?",
+                "answer_1": "Content is replaced everywhere",
+                "answer_2": "We cannot use it like “appending to innerHTML",
+                "answer_3": "The entire innerHTML content is re-parsed and builds into elements. Therefore, it’s much slower",
+                "answer_4": "all are right",
+                "right_answer": "all are right"
+            },
+            {
+                "title": "What is break and continue statements?",
+                "answer_1": "continue statement exits from the current loop. break statement continues with next statement of the loop.",
+                "answer_2": "JavaScript dosen't support Break And continue",
+                "answer_3": "Break statement exits from the current loop. Continue statement continues with next statement of the loop.",
+                "answer_4": "all are right",
+                "right_answer": "Break statement exits from the current loop. Continue statement continues with next statement of the loop."
+            },
+            {
+                "title": "How can generic objects be created?",
+                "answer_1": "var I = new object.create();",
+                "answer_2": "var I = new object().assign;",
+                "answer_3": "var I = object();",
+                "answer_4": "var I = new object();",
+                "right_answer": "var I = new object();"
+            },
+            {
+                "title": "Which keywords are used to handle exceptions?",
+                "answer_1": "Try",
+                "answer_2": "Catch",
+                "answer_3": "finally",
+                "answer_4": "all are right",
+                "right_answer": "all are right"
+            },
+            {
+                "title": " Which keyword is used to print the text on the screen?",
+                "answer_1": "Document. Write (“Welcome”) is used to print the text–Welcome on the screen.",
+                "answer_2": "consloe. log (“Welcome”) is used to print the text–Welcome on the screen.",
+                "answer_3": "window. alert (“Welcome”) is used to print the text–Welcome on the screen.",
+                "answer_4": "all are right",
+                "right_answer": "Document. Write (“Welcome”) is used to print the text–Welcome on the screen."
+            },
+            {
+                "title": "What is the use of the blur function?",
+                "answer_1": "to remover specified object from page",
+                "answer_2": "Blur function is used to remove the focus from the specified object.",
+                "answer_3": "Blur function is used to foucs from the specified object",
+                "answer_4": "nothing right",
+                "right_answer": "Blur function is used to remove the focus from the specified object."
+            },
+            {
+                "title": "What is variable typing?",
+                "answer_1": "JavaScript Dosen't support typing Variable",
+                "answer_2": "typeOf variable == string",
+                "answer_3": "typeOf varible == number",
+                "answer_4": "Variable typing assigns a number to a variable and then assigns a string to the same variable. An example is as follows:",
+                "right_answer": "Variable typing assigns a number to a variable and then assigns a string to the same variable. An example is as follows:"
+            }
+        ]
+    }
+]

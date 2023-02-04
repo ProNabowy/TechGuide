@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description"
+    content="Get started with HTML, CSS, and JavaScript with our comprehensive website. Test your knowledge with our interactive quiz app built using JavaScript, HTML, and CSS. Find complete documentation on all topics including HTML, CSS, JavaScript and quiz app building. Enhance your web development skills today." />
+  <meta name="description"
+    content="ابدأ بالتعلم HTML، CSS، و JavaScript مع موقعنا الشامل. تحدِّث معلوماتك باستخدام تطبيق الاختبار التفاعلي الذي بنيت باستخدام JavaScript، HTML، و CSS. اعثر على التوثيق الكامل لجميع الموضوعات، بما في ذلك HTML، CSS، JavaScript وبناء تطبيق الاختبار. تحسِّن مهارات تطوير الويب الخاصة بك اليوم." />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+  <meta property="og:locale" content="en_EN">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="TechGuide">
+  <meta name="og:descriptio"
+    content="Get started with HTML, CSS, and JavaScript with our comprehensive website. Test your knowledge with our interactive quiz app built using JavaScript, HTML, and CSS. Find complete documentation on all topics including HTML, CSS, JavaScript and quiz app building. Enhance your web development skills today." />
+  <meta property="og:site_name" content="TechGuide">
+  <meta name="generator" content="javaScript 6.1.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Select Noramlize File -->
+    <link rel="stylesheet" href="./css/noramliz.css" />
+    <!-- Select FontAwsome Libarray -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Select Main Css Fill -->
+    <link rel="stylesheet" href="./css/nabowy.css" />
+    <title>JavaScript Reference</title>
+    <link rel="icon" href="./logo/logo.png" type="image/x-icon" />
+  </head>
+  <body style="background-color: black; color:white;">
+    <!-- ======================================= Start Create Header =======================================  -->
+    <header class="space-items">
+      <div class="icone">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <div class="logo">
+        <h2>TechGuide</h2>
+      </div>
+       <ul class="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="html_questions.html">HTML_Questions</a></li>
+        <li><a href="HTML_Reference.html">HTML_Reference</a></li>
+        <li><a href="JavaScript_questions.HTML">JavaScript_Questions</a></li>
+        <li><a href="Js_Reference.html">JavaScript_Reference</a></li>
+        <li><a href="css_questions.html">Css_Questions</a></li>
+        <li><a href="Css_Referaence.html">Css_Reference</a></li>
+         <span class="theme"></span>
+      </ul>
+    </header>
+    <!-- ======================================= End Create Header =======================================  -->
+
+    <!-- ======================================= Start Create Loader =======================================  -->
+    <div class="load">
+      <div class="chase"></div>
+    </div>
+    <!-- ======================================= End Create Loader =======================================  -->
+
+    <!-- ======================================= Start Create Section =======================================  -->
+    <section class="js-answ answer-section">
+      <div class="question">
+        <h2 class="title">JavaScript data types and data structures</h2>
+        <div class="answer">
+          Programming languages all have built-in data structures, but these
+          often differ from one language to another. This article attempts to
+          list the built-in data structures available in JavaScript and what
+          properties they have. These can be used to build other data
+          structures. Wherever possible, comparisons with other languages are
+          drawn.
+          <span class="wight">Dynamic typing</span>
+          <br />
+          JavaScript is a loosely typed and dynamic language. Variables in
+          JavaScript are not directly associated with any particular value type,
+          and any variable can be assigned (and re-assigned) values of all
+          types:
+          <br />
+          <pre class="code">
+let foo = 42;
+// foo is now a number
+foo = 'bar';
+// foo is now a string
+foo     = true;
+// foo is now a boolean</pre
+          >
+          <table>
+            <thead>
+              <tr>
+                <td>JavaScript types</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Boolean type:</td>
+                <td>True</td>
+                <td>False</td>
+              </tr>
+              <tr>
+                <td>Null type:</td>
+                <td>Null</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Undefined type:</td>
+                <td>Undefined</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Numeric type:</td>
+                <td>Number</td>
+                <td>BigInt</td>
+              </tr>
+              <tr>
+                <td>Number type</td>
+                <td>2^-1074</td>
+                <td>-(2^53 − 1)</td>
+              </tr>
+              <tr>
+                <td>String type</td>
+                <td>"Name"</td>
+                <td>"String"</td>
+              </tr>
+              <tr>
+                <td>Symbol type</td>
+                <td>Symbol()</td>
+                <td>Symbol('foo')</td>
+              </tr>
+              <tr>
+                <td>Objects type</td>
+                <td>let obj = {}</td>
+                <td>let obj = new Object()</td>
+              </tr>
+            </tbody>
+          </table>
+          <div
+            class="note"
+            style="width: 80%; text-align: center; margin: 20px auto"
+          >
+            Note: You can check if a number is within the range of safe integers
+            using Number.isSafeInteger(). Outside the range from
+            Number.MIN_SAFE_INTEGER to Number.MAX_SAFE_INTEGER, JavaScript can
+            no longer safely represent integers; they will instead be
+            represented by a double-precision floating point approximation.
+          </div>
+        </div>
+      </div>
+      <div class="question">
+        <h2 class="title">What is JavaScript?</h2>
+        <div class="answer">
+          Welcome to the MDN beginner's JavaScript course! In this article we
+          will look at JavaScript from a high level, answering questions such as
+          "What is it?" and "What can you do with it?", and making sure you are
+          comfortable with JavaScript's purpose.
+          <br />
+          <br />
+          <table>
+            <tbody>
+              <tr>
+                <td>Prerequisites:</td>
+                <td>
+                  Basic computer literacy, a basic understanding of HTML and
+                  CSS.
+                </td>
+              </tr>
+              <tr>
+                <td>Objective:</td>
+                <td>
+                  To gain familiarity with what JavaScript is, what it can do,
+                  and how it fits into a web site.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="wight">So what can it really do?</div>
+          The core client-side JavaScript language consists of some common
+          programming features that allow you to do things like:
+          <br />
+          Store useful values inside variables. In the above example for
+          instance, we ask for a new name to be entered then store that name in
+          a variable called name.
+          <br />
+          Operations on pieces of text (known as "strings" in programming). In
+          the above example we take the string "Player 1: " and join it to the
+          name variable to create the complete text label, e.g. "Player 1:
+          Chris".
+          <br />
+          Running code in response to certain events occurring on a web page. We
+          used a click event in our example above to detect when the label is
+          clicked and then run the code that updates the text label.
+          <br />
+          And much more!
+          <br />
+          What is even more exciting however is the functionality built on top
+          of the client-side JavaScript language. So-called Application
+          Programming Interfaces (APIs) provide you with extra superpowers to
+          use in your JavaScript code.
+          <br />
+          APIs are ready-made sets of code building blocks that allow a
+          developer to implement programs that would otherwise be hard or
+          impossible to implement. They do the same thing for programming that
+          ready-made furniture kits do for home building — it is much easier to
+          take ready-cut panels and screw them together to make a bookshelf than
+          it is to work out the design yourself, go and find the correct wood,
+          cut all the panels to the right size and shape, find the correct-sized
+          screws, and then put them together to make a bookshelf.
+          <div class="note" style="width: 70%; margin: 20px auto">
+            Note: Many of the above demos won't work in an older browser — when
+            experimenting, it's a good idea to use a modern browser like
+            Firefox, Chrome, Edge or Opera to run your code in. You will need to
+            consider cross browser testing in more detail when you get closer to
+            delivering production code (i.e. real code that real customers will
+            use).
+          </div>
+          <div class="note" style="width: 70%; margin: 20px auto">
+            Note: These APIs are advanced, and we'll not be covering any of
+            these in this module. You can find out much more about these in our
+            Client-side web APIs module.
+          </div>
+        </div>
+      </div>
+      <div class="question">
+        <h2 class="title">What is JavaScript doing on your page?</h2>
+        <div class="answer">
+          Here we'll actually start looking at some code, and while doing so,
+          explore what actually happens when you run some JavaScript in your
+          page.
+          <br />
+          Let's briefly recap the story of what happens when you load a web page
+          in a browser (first talked about in our How CSS works article). When
+          you load a web page in your browser, you are running your code (the
+          HTML, CSS, and JavaScript) inside an execution environment (the
+          browser tab). This is like a factory that takes in raw materials (the
+          code) and outputs a product (the web page).
+          <br />
+          A very common use of JavaScript is to dynamically modify HTML and CSS
+          to update a user interface, via the Document Object Model API (as
+          mentioned above). Note that the code in your web documents is
+          generally loaded and executed in the order it appears on the page.
+          Errors may occur if JavaScript is loaded and run before the HTML and
+          CSS that it is intended to modify. You will learn ways around this
+          later in the article, in the Script loading strategies section.
+          <div class="wight">Browser security</div>
+          Each browser tab has its own separate bucket for running code in
+          (these buckets are called "execution environments" in technical terms)
+          — this means that in most cases the code in each tab is run completely
+          separately, and the code in one tab cannot directly affect the code in
+          another tab — or on another website. This is a good security measure —
+          if this were not the case, then pirates could start writing code to
+          steal information from other websites, and other such bad things.
+          <div class="note" style="width: 70%; margin: 20px auto">
+            Note: There are ways to send code and data between different
+            websites/tabs in a safe manner, but these are advanced techniques
+            that we won't cover in this course.
+            <div class="wight">JavaScript running order</div>
+            When the browser encounters a block of JavaScript, it generally runs
+            it in order, from top to bottom. This means that you need to be
+            careful what order you put things in. For example, let's return to
+            the block of JavaScript we saw in our first example:
+            <pre class="code"><code>  const p =
+ document.querySelector('p');
+
+ p.addEventListener(
+ 'click', updateName
+);
+
+function updateName() {
+const name =
+ prompt('Enter a new name');
+p.textContent =
+ `Player 1: ${name}`;
+}</code></pre>
+            Here we are selecting a text paragraph (line 1), then attaching an
+            event listener to it (line 3) so that when the paragraph is clicked,
+            the updateName() code block (lines 5–8) is run. The updateName()
+            code block (these types of reusable code blocks are called
+            "functions") asks the user for a new name, and then inserts that
+            name into the paragraph to update the display.
+            <br />
+            <br />
+            If you swapped the order of the first two lines of code, it would no
+            longer work — instead, you'd get an error returned in the browser
+            developer console — TypeError: para is undefined. This means that
+            the para object does not exist yet, so we can't add an event
+            listener to it.
+            <div class="note" style="width: 70%; margin: 20px auto">
+              Note: This is a very common error — you need to be careful that
+              the objects referenced in your code exist before you try to do
+              stuff to them.
+            </div>
+          </div>
+          <div class="wight">Interpreted versus compiled code</div>
+          You might hear the terms interpreted and compiled in the context of
+          programming. In interpreted languages, the code is run from top to
+          bottom and the result of running the code is immediately returned. You
+          don't have to transform the code into a different form before the
+          browser runs it. The code is received in its programmer-friendly text
+          form and processed directly from that.
+          <br />
+          <br />
+          Compiled languages on the other hand are transformed (compiled) into
+          another form before they are run by the computer. For example, C/C++
+          are compiled into machine code that is then run by the computer. The
+          program is executed from a binary format, which was generated from the
+          original program source code.
+          <br />
+          <br />
+          JavaScript is a lightweight interpreted programming language. The web
+          browser receives the JavaScript code in its original text form and
+          runs the script from that. From a technical standpoint, most modern
+          JavaScript interpreters actually use a technique called just-in-time
+          compiling to improve performance; the JavaScript source code gets
+          compiled into a faster, binary format while the script is being used,
+          so that it can be run as quickly as possible. However, JavaScript is
+          still considered an interpreted language, since the compilation is
+          handled at run time, rather than ahead of time.
+        </div>
+      </div>
+      <div class="question">
+        <h2 class="title">Difference Between isnan() and Number.isnan()</h2>
+        <div class="answer">
+          isNaN() method returns true if a value is Not-a-Number.
+          <br />
+          Number.isNaN() returns true if a number is Not-a-Number.
+          <br />
+          In other words:
+          <br />
+          isNaN() converts the value to a number before testing it.
+          <div class="wight">ExamplesL</div>
+          <pre class="code">
+// This returns true;
+isNaN('Hello');</pre
+          >
+          <pre class="code">
+// This returns false;
+Number.isNaN('Hello');</pre
+          >
+          <div class="wight">Syntax:</div>
+          <div class="att" style="text-align: center">isNaN(value)</div>
+        </div>
+      </div>
+      <div class="question">
+        <h2 class="title">What is negative Infinity?</h2>
+        <div class="answer">
+          <div class="note" style="width: 50%; margin: 20px auto">
+            Note: JavaScript shows the NEGATIVE_INFINITY value as -Infinity.
+            <br />
+            Negative infinity is different from mathematical infinity in the
+            following ways:
+            <br />
+            1. Negative infinity results in 0 when divided by any other number.
+            <br />
+            2. When divided by itself or positive infinity, negative infinity
+            return NaN
+            <br />
+            3. Negative infinity, when divided by any positive number (apart
+            from positive infinity) is negative infinity.
+            <br />
+            4. Negative infinity, divided by any negative number (apart from
+            negative infinity) is positive infinity.
+            <br />
+            5. If we multiply negative infinity with NaN, we will get NaN as a
+            result.
+            <br />
+            6. The product of NaN and negative infinity is 0.
+            <br />
+            7. The product of two negative infinities is always a positive
+            infinity.
+            <br />
+            8. The product of both positive and negative infinity is always
+            negative infinity.
+            <div class="wight">Syntax</div>
+            <pre class="code">Number.NEGATIVE_INFINITY</pre>
+            </pre>
+        </div>
+      </div>
+      </div>
+      <div class="question">
+        <h2 class="title">How to break JavaScript Code into several lines ?</h2>
+        <div class="answer">
+            In this article, we will discuss how to break javascript code into several lines.
+            We generally break the code into several lines so that it can be read easily by a third person or the programmer &lt;itself class=""&gt;&lt;/itself&gt;
+            There are two ways to break JavaScript code into several lines:
+            <br>
+            We can use the newline escape character i.e “\n”. if we are working on the js file or not rendering the code to the html page.
+            <br>
+            We can use the &lt;br&gt; tag. if we are working on the html file.
+            <br>
+            We can optional code formatters like prettier can be used for such purposes. breaking JavaScript code into multiple lines is a process where the clumsiness of code is reduced,
+            Sometimes we write long lines of code which makes it hard for readability.
+            <div class="wight">Examples:</div>
+            <pre class="code">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;
+ Javascript breaking lines of code
+&lt;title&gt;
+&lt;head&gt;
+  
+&lt;body&gt;
+&lt;script&gt;
+ // using \n 
+ console.log(
+ "let us see how to break lines
+ injavascript,\n what can we do?"
+);
+       
+&lt;script&gt;
+&lt;body&gt;
+&lt;html&gt;</pre>
+                <div class="imge">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220120100247/Screenshot20220120at95902AM.png" alt="">
+                </div>
+        </div>
+      </div>
+      <div class="question">
+        <h2 class="title">company developed JavaScript?</h2>
+        <div class="answer">
+            Netscape :- Is the name of the company which developed the javascript the founder of the javascript language is Brenden eich The photograph of the founder is shown below. 
+            <br>
+            <br>
+            According to wikipedia Brendan Eich (/ˈaɪk/; born July 4, 1961) is an American technologist and creator of the JavaScript programming language. He co-founded the Mozilla project, the Mozilla Foundation and the Mozilla Corporation,
+             and served as the Mozilla Corporation's chief technical officer and briefly, as its chief executive officer.
+            <br>
+            <br>
+            The first ever JavaScript was created by Brendan Eich at Netscape, and has since been updated to conform to ECMA-262 Edition 5 and later versions.The early versions of JavaScript were called Mocha. Not long after a Mocha prototype was introduced into Netscape Communicator (May 1995), it was renamed to LiveScript, purely because the world Live was better for marketing.
+            </div>
+    </div>
+    <div class="question">
+        <h2 class="title">ndeclared and undefined variables in JavaScript</h2>
+        <div class="answer">
+            <span class="wight">Undefined</span>: It occurs when a variable has been declared but has not been assigned with any value. Undefined is not a keyword.
+            <br>
+            <span class="wight">Undeclared</span>: It occurs when we try to access any variable that is not initialized or declared earlier using var or const keyword.
+            <br>
+            If we use ‘typeof’ operator to get the value of an undeclared variable, we will face the runtime error with return value as “undefined”. The scope of the undeclared variables is always global.
+            <div class="wight">For Example:</div>
+                <span class="wight">Undefined</span>
+                <pre class="code"><code>var geek;
+undefined
+console.log(geek)</code></pre>
+                <span class="wight">Undeclared:</span>
+                <pre class="code"><code>//ReferenceError:
+myVariable is not defined
+console.log(myVariable) </code></pre>
+                    <div class="wight">Example 1: This example illustrate a situation where an undeclared variable is used.</div>
+                    <pre class="code"><code>&lt;script&gt;
+function GFG(){
+//'use strict'
+verifies that no undeclared 
+// variable's present in our code
+   'use strict'; 
+   x = "GeeksForGeeks";
+}
+  
+ GFG();
+//accessing the above function
+&lt;/script&gt;
+</code></pre>
+                <span class="wight">Output:</span>
+                <pre class="code">ReferenceError: x is not defined</pre>
+                <span class="wight">Example 2: This example checks whether a given variable is undefined or not.</span>
+                <pre class="code">
+<code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  
+&lt;body&gt;
+&lt;style&gt;
+h1 {
+  color: green;
+}
+&lt;/style&gt;
+  
+&lt;h1&gt;UNDEFINED OR NOT.&lt;/h1&gt;
+  
+&lt;button onclick="checkVar()"&gt;
+  Try it
+&lt;/button&gt;
+  
+&lt;p&gt; id="gfg"&gt;&lt;/p&gt;
+  
+&lt;script&gt;
+function checkVar() {
+if (
+ typeof variable === "undefined"
+  ){   
+ string = "Variable is undefined";
+} else {   
+ string = "Variable is defined";
+}
+document.getElementById("gfg")
+.innerHTML = string;
+}
+&lt;/script&gt;
+
+&lt;/body&gt;
+  
+&lt;/html&gt;
+</code></pre>
+                <span class="wight">Output:</span>
+                <div class="imge">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20190719214705/tempsnip2.png" alt="">
+                </div>
+    </div>
+    </div>
+    <div class="question">
+        <h2 class="title">What are global variables? How are these variable declared?</h2>
+        <div class="answer">
+            <div class="wight">Scope of Variable</div>
+            Each variable is defined and can be used within its scope and determines that wherein the program this variable is available to use. The scope means the lifetime of that variable. It means the variable can only be accessed or visible within its scope.
+            The scope of variables can be defined with their declaration, and variables are declared mainly in two ways:
+            <br>
+            <span class="wight">Global Variable: </span>Outside of all the functions
+            <br>
+            <span class="wight">Local Variable: </span> Within a function block:
+            <div class="wight">What is a Global Variable?</div>
+            Global variables are those variables which are declared outside of all the functions or block and can be accessed globally in a program.
+            <br>
+            It can be accessed by any function present in the program.
+            <br>
+            Once we declare a global variable, its value can be varied as used with different functions.
+            <br>
+            The lifetime of the global variable exists till the program executes. These variables are stored in fixed memory locations given by the compiler and do not automatically clean up.
+            <br>
+            Global variables are mostly used in programming and useful for cases where all the functions need to access the same data.
+            <div class="wight">Example:</div>
+            <pre class="code">
+let a=50, b=40;  
+function main()  
+{  
+console.log(
+ "a = %d and b=%d",a,b
+);  
+}</pre>
+            <div class="wight">Advantages of Global Variable</div>
+            Global variables can be accessed by all the functions present in the program.
+            <br>
+            Only a single declaration is required.
+            <br>
+            Very useful if all the functions are accessing the same data.
+            <div class="wight">Disadvantages of Global Variable</div>
+            <br>
+            The value of a global variable can be changed accidently as it can be used by any function in the program.
+            <br>
+            If we use a large number of global variables, then there is a high chance of error generation in the program.
+            <div class="wight">What is a Local Variable?</div>
+            Variables that are declared within or inside a function block are known as Local variables.
+            <br>
+            These variables can only be accessed within the function in which they are declared.
+            <br>
+            The lifetime of the local variable is within its function only, which means the variable exists till the function executes. Once function execution is completed, local variables are destroyed and no longer exist outside the function.
+            <br>
+            The reason for the limited scope of local variables is that local variables are stored in the stack, which is dynamic in nature and automatically cleans up the data stored within it.
+            <br>
+            But by making the variable static with "static" keyword, we can retain the value of local variable.
+            <br>
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Global Variable</td>
+                        <td>Local  Variable</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Global variables are declared outside all the function blocks.</td>
+                        <td>Local Variables are declared within a function block.</td>
+                    </tr>
+                    <tr>
+                        <td>The scope remains throughout the program.</td>
+                        <td>The scope is limited and remains within the function only in which they are declared.</td>
+                    </tr>
+                    <tr>
+                        <td>Any change in global variable affects the whole program, wherever it is being used.</td>
+                        <td>Any change in the local variable does not affect other functions of the program.</td>
+                    </tr>
+                    <tr>
+                        <td>A global variable exists in the program for the entire time the program is executed.</td>
+                        <td>A local variable is created when the function is executed, and once the execution is finished, the variable is destroyed.</td>
+                    </tr>
+                    <tr>
+                        <td>It can be accessed throughout the program by all the functions present in the program.</td>
+                        <td>It can only be accessed by the function statements in which it is declared and not by the other functions.</td>
+                    </tr>
+                    <tr>
+                        <td>If the global variable is not initialized, it takes zero by default.</td>
+                        <td>If the local variable is not initialized, it takes the garbage value by default.</td>
+                    </tr>
+                    <tr>
+                        <td>Global variables are stored in the data segment of memory.</td>
+                        <td>Local variables are stored in a stack in memory.</td>
+                    </tr>
+                    <tr>
+                        <td>We cannot declare many variables with the same name.</td>
+                        <td>We can declare various variables with the same name but in other functions.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="question">
+        <h2 class="title">Window prompt()</h2>
+        <div class="answer">
+            The <span style="color: red;">prompt()</span> method displays a dialog box that prompts the user for input.
+            <br>
+            The <span style="color: red;">prompt()</span> method returns the input value if the user clicks "OK", otherwise it returns null.
+            <div class="note">
+                A prompt box is used if you want the user to input a value.
+                <br>
+                When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed.
+                <br>
+                Do not overuse this method. It prevents the user from accessing other parts of the page until the box is closed.
+                <br>
+                <div class="wight">Syntax</div>
+                <pre class="code">prompt(text, defaultText)</pre>
+                <span class="wight">Return Value</span>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Parameter</td>
+                            <td>Description</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>A string</td>
+                            <td>	If the user clicks "OK", the input value is returned.
+                                Otherwise <span style="color: red;">null</span> is returned.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <span class="wight" >Browser Support</span>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Chrome</td>
+                        <td>IE</td>
+                        <td>Edge</td>
+                        <td>Firefox</td>
+                        <td>Safari</td>
+                        <td>Opera</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Support</td>
+                        <td>Support</td>
+                        <td>Support</td>
+                        <td>Support</td>
+                        <td>Support</td>
+                        <td>Support</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="question">
+        <h2 class="title">The JavaScript this Keyword</h2>
+        <div class="answer">
+            In JavaScript, the this keyword refers to an object.
+            <br>
+            Which object depends on how this is being invoked (used or called).
+            <br>
+            The this keyword refers to different objects depending on how it is used:
+            <br>
+            <br>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>In an object method, this refers to the object.</td>
+                    </tr>
+                    <tr>
+                        <td>Alone, this refers to the global object.</td>
+                    </tr>
+                    <tr>
+                        <td>In a function, this refers to the global object.</td>
+                    </tr>
+                    <tr>
+                        <td>In a function, in strict mode, this is undefined.</td>
+                    </tr>
+                    <tr>
+                        <td>In an event, this refers to the element that received the event.</td>
+                    </tr>
+                    <tr>
+                        <td>Methods like call(), apply(), and bind() can refer this to any object.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <div class="note">this is not a variable. It is a keyword. You cannot change the value of this.</div>
+            <span class="wight">Example:</span>
+            <pre class="code">
+fullName : function() {
+ return this.firstName +
+  " " +
+  this.lastName;
+}</pre>
+        </div>
+    </div>
+    <div class="question">
+        <h2 class="title">JavaScript timer</h2>
+        <div class="answer">
+            In JavaScript, a timer is created to execute a task or any function at a particular time. Basically, the timer is used to delay the execution of the program or to execute the JavaScript code in a regular time interval. With the help of timer, we can delay the execution of the code. So, the code does not complete it's execution at the same time when an event triggers or page loads.
+            <br>
+            The best example of the timer is advertisement banners on websites, which change after every 2-3 seconds. These advertising banners are changed at a regular interval on the websites like Amazon. We set a time interval to change them. In this chapter, we will show you how to create a timer.
+            <br>
+            JavaScript offers two timer functions setInterval() and setTimeout(), which helps to delay in execution of code and also allows to perform one or more operations repeatedly. We will discuss both the timer functions in detail as well as their examples.
+            <div class="wight">setTimeout()</div>
+            The setTimeout() function helps the users to delay the execution of code. The setTimeout() method accepts two parameters in which one is a user-defined function, and another is the time parameter to delay the execution. The time parameter holds the time in milliseconds (1 second = 1000 milliseconds), which is optional to pass.
+            <br>
+            The basic syntax of setTimeout() is:
+            <div class="note">setTimeout(function, milliseconds)</div>
+            We will use the setTimeout() function to delay the printing of message for 3 seconds. The message will display on the web after 3 seconds of code execution rather than immediately. Now, let's look at the code below to see how it works:
+            <div class="wight">Execution of code after a delay</div>
+            <pre class="code">
+&lt;html&gt;  
+&lt;body&gt;  
+&lt;script&gt;  
+function delayFunction() {  
+ //display message on web after
+ 3 secondson calling delayFunction  
+document.write('&lt;h3&gt;
+  Welcome to JavaTpoint
+&lt;/h3&gt;');   
+}  
+&lt;/script&gt;  
+&lt;h4&gt;
+Example of delay the
+execution of function
+&lt;h4&gt;   
+
+&lt;button onclick =
+ "setTimeout(delayFunction, 3000)"&gt;
+Click Here &lt;/button&gt;  
+  
+&lt;/body&gt;  
+&lt;/html&gt;  </pre>
+                <span class="wight">Output</span>
+                <div class="imge">
+                    <img src="https://static.javatpoint.com/javascriptpages/images/javascript-timer.png" alt="">
+                </div>
+                <p style="width: 80%; text-align: center; margin:10px auto;">On clicking the Click Here button, the remaining code will execute after 3 seconds. A message Welcome to javaTpoint will display on the web after 3 seconds (3000 milliseconds).</p>
+                <div class="imge">
+                    <img src="https://static.javatpoint.com/javascriptpages/images/javascript-timer2.png" alt="">
+                </div>
+        </div>
+    </div>
+    <div class="question">
+        <h2 class="title">Which symbol is used for comments in Javascript?</h2>
+        <div class="answer">
+            <div class="code">
+// Which symbol is used for comments in Javascript?
+<br>
+// for Single line comments and
+<br>
+
+/* Multi
+<br>
+Line
+<br>
+Comment
+<br>
+*/</div>
+The single line comments always starts by the "//" and any text written in between the "// "and the end of the line is considered as comment and ignored by the JavaScript.
+                <br>
+                Multi-line comments have one or more lines of narrative within a set of comment delimiters. The /* delimiter marks the beginning of the comment, and the */ marks the end. You can have your comment span multiple lines and anything between those delimiters is considered a comment.
+        </div>
+    </div>
+    <div class="question">
+        <h2 class="title">What is === operator?</h2>
+        <div class="answer">
+            <div class="wight">Strict equality (===)</div>
+            The strict equality operator (===) checks whether its two operands are equal, returning a Boolean result. Unlike the equality operator, the strict equality operator always considers operands of different types to be different.
+            <span class="wight">Examples</span>
+            <pre class="code">
+console.log(1 === 1);
+// expected output: true
+
+console.log('hello' === 'hello');
+// expected output: true
+
+console.log('1' ===  1);
+// expected output: false
+
+console.log(0 === false);
+// expected output: false</pre>
+                <pre class="code">
+console.log("hello" === "hello");
+// expected output: true;
+console.log("hello" === "hola");
+// expected output: false;
+
+console.log(3 === 3);
+// expected output: true;
+console.log(3 === 4);
+// expected output: false;
+
+console.log(true === true);
+// expected output: true;
+console.log(true === false);
+// expected output: false;
+
+console.log(null === null);
+// expected output: true;</pre>
+                    <pre class="code">
+console.log("3" === 3);
+// expected output: false;
+
+console.log(true === 1);
+// expected output: false;
+
+console.log(null === undefined); 
+// expected output: false;</pre>
+                        <pre class="code">
+const object1 = {
+  name: "hello"
+}
+
+const object2 = {
+  name: "hello"
+}
+
+console.log(object1 === object2);
+// expected output: false;
+console.log(object1 === object1);
+// expected output: true;</pre>
+<table class="mr-center">
+    <h2>Browser support</h2>
+    <thead>
+      <tr>
+        <td>Chrome</td>
+        <td>Edge</td>
+        <td>Firefox</td>
+        <td>Opera</td>
+        <td>IE</td>
+      </tr>
+      <tbody>
+        <tr>
+            <td>Support</td>
+            <td>Support</td>
+            <td>Support</td>
+            <td>Support</td>
+            <td>Support</td>
+        </tr>
+      </tbody>
+    </thead>
+  </table>
+        </div>
+    </div>
+    <div class="question">
+        <h2 class="title">How to Submit a Form Using JavaScript</h2>
+        <div class="answer">
+            Generally, a form is submitted when the user presses a submit button. However, sometimes, you may need to submit the form programmatically using JavaScript.
+
+            JavaScript provides the form object that contains the submit() method. Use the ‘id’ of the form to get the form object.
+
+            For example, if the name of your form is ‘myform’, the JavaScript code for the submit call is:
+
+            <pre class="code">document.forms["myform"].submit();</pre>
+            But, how to identify a form? Give an id attribute in the form tag
+
+            Here is the code to submit a form when a hyperlink is clicked:
+            <pre class="code">
+&lt;form name="myform"
+action="handle-data.php"&gt;
+Search:
+&lt;input type='text' name='query' /&gt;
+&lt;a href="javascript: submitform()">
+Search
+&lt;/a&gt;
+&lt;/form&gt;
+&lt;script type="text/javascript"&gt;
+function submitform()
+{
+  document.myform.submit();
+}
+&lt;/script&gt;</pre>
+        </div>
+    </div>
+    <div class="question">
+        <h2 class="title">Does JavaScript support automatic type conversion?</h2>
+        <div class="answer">
+            Yes, JavaScript does support automatic type conversion. It is the common way of type conversion used by JavaScript developers
+            There are a few expressions that are commonly seen in JavaScript, but which some programming purists will tell you are never a good idea. What these expressions share is their reliance on automatic type conversion — a core feature of JavaScript which is both a strength and a weakness, depending on the circumstances and your point of view.
+            <br>
+            "automatically" converts 42 (a number) to string. I put "automatically" in quotes because it's done by the + operator, in a clearly-defined way.
+
+Another example is that various operations expecting numbers will convert from string (or even from object). For instance:
+        </div>
+    </div>
+    <div class="question">
+        <h2 class="title">How can the style/class of an element be changed using javascript?</h2>
+        <div class="answer">
+            <pre class="code">
+var element =
+document.getElementById('element');
+element.classList.add('class-1');
+element.classList.add
+('class-2', 'class-3');
+element.classList.remove('class-3');
+            </pre>
+            <pre class="code" >
+document.getElementById("MyElement")
+.classList.add('MyClass');
+
+document.getElementById("MyElement")
+.classList.remove('MyClass');
+
+if
+(
+document.getElementById("MyElement")
+.classList.contains('MyClass')
+)
+{
+document.getElementById("MyElement")
+.classList.toggle('MyClass');
+            </pre>
+                <br>
+                document.getElementById('myText'). style. fontSize = '20';
+                <br>
+                document.getElementById('myText'). style. fontWeight = 'bold';
+                <br>
+                document.getElementById('myText'). style. color = 'red';
+        </div>
+    </div>
+    <div class="question">
+        <h2 class="title">How to read and write a file using JavaScript?</h2>
+        <div class="answer">
+            On the client side, you can’t read or write files in JavaScript browsers. The fs module in Node.js may be used to accomplish this on the server-side. It has methods for reading and writing files on the file system that are both synchronous and asynchronous. Let’s demonstrate some examples of reading and writing files with the node.js fs module.
+            <br>
+            The fs.readFile() and rs.writeFile() methods are used to read and write of a file using javascript. The file is read using the fs.readFile() function, which is an inbuilt method. This technique reads the full file into memory and stores it in a buffer. 
+            <br>
+            Syntax:
+            <pre class="code">fs.readFile
+(
+file_name, encoding,
+callback_function
+)</pre>
+            <div class="wight">Parameters:</div>
+            <span class="wight">filename</span>: It contains the filename to be read, or the whole path if the file is saved elsewhere.
+            <br>
+            <span class="wight">encoding</span>: It stores the file’s encoding. ‘utf8’ is the default setting.
+            <br>
+            <span class="wight">callback function:</span> This is a function that is invoked after the file has been read. It requires two inputs:
+            <br>
+            <span class="wight">err:</span> If there was an error.    
+            <br>
+            <span class="wight">data:</span> The file’s content.
+            <br>
+            <span class="wight">Return Value:</span>It returns the contents contained in the file, as well as any errors that may have occurred.
+            <br>
+            The fs.writeFile() function is used to write data to a file in an asynchronous manner. If the file already exists, it will be replaced.
+            <div class="wight">Syntax</div>
+            <pre class="code">fs.writeFile
+(
+file_name, data, options, callback
+)</pre>
+            <div class="wight">Parameters:</div>
+            <span class="wight">file_name:</span>It’s a string, a buffer, a URL, or a file description integer that specifies the location of the file to be written. When you use a file descriptor, it will function similarly to the fs. write() method.
+            <br>
+            <span class="wight">data:</span> The data that will be sent to the file is a string, Buffer, TypedArray, or DataView.
+            <br>
+            <span class="wight">options:</span> It’s a string or object that may be used to indicate optional output options. It includes three more parameters that may be selected.
+            <br>
+            <span class="wight">encoding:</span> It’s a string value that indicates the file’s encoding. ‘utf8’ is the default setting.
+            <br>
+            <span class="wight">mode:</span> The file mode is specified by an integer number called mode. 0o666 is the default value.
+            <br>
+            <span class="wight">flag:</span> This is a string that indicates the file-writing flag. ‘w’ is the default value.
+            <br>
+            <span class="wight">callback:</span> This function gets invoked when the method is run.
+            <br>
+            <span class="wight">err:</span> If the process fails, this is the error that will be thrown.
+            <br>
+            <span class="wight">Let’s understand how to write and read files using an example:</span>
+            <br>
+            In the below example, we are creating a file using the writeFile() method and reading the content of the file readFile() method.
+            <br>
+            <div class="wight">Project Structure:</div>
+            <div class="imge">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220130160555/new.JPG" alt="">
+            </div>
+            <pre class="code">
+
+var fs = require("fs");
+console.log(
+  " Writing into an file "
+);
+  
+// Sample.txt is an empty file
+fs.writeFile(
+ "sample.txt",
+ "Let's write a few
+sentences in the file",
+function (err) {
+ if (err) {
+  return console.error(err);
+ }
+  
+// If no error the remaining
+code executes
+console.log(" Finished writing ");
+console.log(
+"Reading the data that's written"
+);
+  
+ // Reading the file
+fs.readFile("sample.txt", function
+(err, data) {
+ if (err) {
+  return console.error(err);
+ }
+console.log(
+ "Data read : " + data.toString()
+);
+        
+ });
+}
+);</pre>
+            <span class="wight">Output</span>
+            <div class="imge">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220130160802/new.JPG" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="question">
+        <h2 class="tilte">What are all the looping structures in JavaScript?</h2>
+        <div class="answer">
+            Looping in programming languages is a feature which facilitates the execution of a set of instructions/functions repeatedly while some condition evaluates to true. For example, suppose we want to print “Hello World” 10 times. This can be done in two ways as shown below:
+            <br>
+            The iterative method to do this is to write the document.write() statement 10 times. 
+            <pre class="code">
+&lt;script type = "text/javascript"&gt;
+document.write("Hello World\n");
+document.write("Hello World\n");
+document.write("Hello World\n");
+document.write("Hello World\n");
+document.write("Hello World\n");
+document.write("Hello World\n");
+document.write("Hello World\n");
+document.write("Hello World\n");
+document.write("Hello World\n");
+document.write("Hello World\n");
+&lt;/script&gt;
+</pre>
+            <p class="wight" style="text-align: center;">Using Loops</p>
+            <span class="wight">In Loop, the statement needs to be written only once and the loop will be executed 10 times as shown below: </span>
+            <pre class="code">
+&lt;script type = "text/javascript"&lt;
+var i;
+ 
+for (i = 0; i < 10; i++)
+{
+ document.write("Hello World!\n");
+}
+&lt;/script&gt;</pre>
+            <pre class="code">
+while (boolean condition)
+{
+   loop statements...
+}</pre>
+        </div>
+    </div>
+    </section>
+    <!-- ======================================= End Create Section =======================================  -->
+
+    <!-- ======================================= Start Create Footer =======================================  -->
+      <footer class="page-footer">
+        <ul class="page-footer__list">
+          <li class="page-footer__item page-footer__item_copy">©&nbsp;2020—2023&nbsp; Mahmoud E-Nabowy</li>
+          <li class="page-footer__item page-footer__item_about"><a class="page-footer__link" href="html_questions.html"> HTML
+              Questions</a>
+          </li>
+          <li class="page-footer__item page-footer__item_about"><a class="page-footer__link" href="HTML_Reference.html"> HTML
+              Reference</a>
+          </li>
+          <li class="page-footer__item page-footer__item_about"><a class="page-footer__link" href="Css_Referaence.html"> CSS
+              Reference</a>
+          </li>
+          <li class="page-footer__item page-footer__item_about"><a class="page-footer__link" href="css_questions.html"> CSS
+              Questions</a>
+          </li>
+          <li class="page-footer__item page-footer__item_about"><a class="page-footer__link" href="Js_Reference.html">
+              JavaScript
+              Reference</a>
+          </li>
+          <li class="page-footer__item page-footer__item_about"><a class="page-footer__link" href="JavaScript_questions.HTML">
+              JavaScript Questions</a>
+          </li>
+        </ul>
+      </footer>
+    <!-- ======================================= End Create Header =======================================  -->
+
+    <!-- Js Files -->
+    <button class="scroll">Up</button>
+    <script src="js/header.js"></script>
+
+  </body>
+</html>
