@@ -1,5 +1,5 @@
 // =============================================== Selector Elements For Js
-const api_url = "https://raw.githubusercontent.com/ProNabowy/Quiz-Website/main/data.json";
+const api_url = "https://raw.githubusercontent.com/ProNabowy/TechGuide/main/data.json";
 
 let count = document.querySelector(".count");
 
